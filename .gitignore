@@ -1,0 +1,17 @@
+# Editor files directory
+.DS_Store
+.idea
+.vscode
+
+### Node.js
+# Logs
+logs
+*.log
+npm-debug.log*
+package-lock.json
+node_modules
+
+.env
+coverage
+
+pnpm-lock.yaml
