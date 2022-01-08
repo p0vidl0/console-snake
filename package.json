@@ -6,7 +6,7 @@
   "scripts": {
     "build": "tsc",
     "start": "node -r dotenv/config dist/index.ts",
-    "start:dev": "node --inspect -r ts-node/register -r dotenv/config src/index.ts",
+    "dev": "node --inspect -r ts-node/register src/index.ts",
     "test": "jest",
     "test:watch": "jest --watch",
     "lint": "npm run eslint && npm run prettier",
@@ -27,9 +27,7 @@
     "url": "https://github.com/p0vidl0/typescript-starter/issues"
   },
   "homepage": "https://github.com/p0vidl0/typescript-starter#readme",
-  "dependencies": {
-    "dotenv": "^10.0.0"
-  },
+  "dependencies": {},
   "devDependencies": {
     "@types/jest": "^27.0.2",
     "@types/node": "^16.10.2",
